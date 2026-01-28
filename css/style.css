@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: "obt";
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+	align-items: center;
+	text-align: center;
+	
+	background-image: url(../slike/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzQtMDhhLWt2a2N6ZG4xLmpwZw.png);
+    background-size: auto;
+    background-repeat: repeat;
+}
+h1 {
+        font-family: "IvanKovacevic", serif;
+    }
+
+a{
+	color: white;
+}
+
+p{
+	background-color: rgba(241,137,133,1);
+		padding:5px; 
+            margin-left: auto; 
+            margin-right:auto;
+            width: 400px;
+}
+h2{
+	background-color: rgba(241,137,133,0.69);
+		padding:5px; 
+            margin-left: auto; 
+            margin-right:auto;
+            width: 400px;
+}
+header {
+    background-color: rgba(29,105,223,1.00);
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+ul 
+{    
+	background-color: rgba(29,105,223,1.00);
+	align-items: center;
+            padding:5px; 
+            margin-left: auto; 
+            margin-right:auto;
+            width: 400px;
+            } 
+    li 
+{    
+display:inline;
+        }
+li b{
+display:inline;
+			color:white; 
+            font-family: "Montserrat", sans-serif;
+            text-transform: uppercase;
+            }
+li a {
+display:inline;
+            background-color:black;
+            padding:20px;
+            border: 2px solid white;
+			border-spacing: inherit;
+			color:white; 
+            font-family: "Montserrat", sans-serif;
+            text-transform: uppercase;
+            }
+    li a:link {text-decoration:none;}
+    li a:hover {text-decoration:underline;}
+
+nav ul {
+    list-style: none;
+    display: flex;
+	justify-content: center;
+	gap: 100px;
+	text-align: center;
+    padding: 50px;
+    background: rgba(0,0,0,0.00);
+    border-radius: 2px;
+}
+
+section {
+    background-color: rgba(29,105,223,0.80);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+img {
+    margin: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
