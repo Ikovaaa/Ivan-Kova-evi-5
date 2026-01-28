@@ -12,6 +12,12 @@ body {
     background-size: auto;
     background-repeat: repeat;
 }
+@font-face {
+  font-family: "IvanKovacevic";
+  src: url("../font/IvanKovacevic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
         font-family: "IvanKovacevic", serif;
     }
